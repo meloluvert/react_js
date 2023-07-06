@@ -1,11 +1,12 @@
 import * as S from './styles'
-import { dados} from "../../services/dados"
+import { newDados} from "../Form"
 import { ComponentCard } from '../../components'
 
 export function List() {
+  newDados.map(item => console.log(item))
   return (
     <S.Section>
-      {dados.map(item => (
+      {newDados.map(item => (
         <ComponentCard
           key={item.id}
           data={item.data}
