@@ -1,5 +1,5 @@
 import * as S from './styles'
-import { newDados} from "../Form"
+import { newDados } from "../Form"
 import { ComponentCard } from '../../components'
 
 export function List() {
